@@ -2,7 +2,7 @@
 
 A modern, AI-powered email response generator built with React and Material-UI. Transform your email communication with professional, context-aware responses.
 
-[![🎥 Watch Demo](https://img.shields.io/badge/Watch%20Demo-Click%20Here-blue?logo=youtube)](https://drive.google.com/file/d/1I0Ue6UV62ncC1YTiLU0RSJuxNLsxPbDG/view?usp=drive_link)
+[![🎥 Watch Demo](https://img.shields.io/badge/Watch%20Demo-Click%20Here-red?logo=youtube)](https://drive.google.com/file/d/1I0Ue6UV62ncC1YTiLU0RSJuxNLsxPbDG/view?usp=drive_link)
 ![React](https://img.shields.io/badge/React-19.1.0-blue?logo=react)
 ![Material-UI](https://img.shields.io/badge/Material--UI-7.2.0-blue?logo=material-ui)
 ![Vite](https://img.shields.io/badge/Vite-7.0.4-purple?logo=vite)
