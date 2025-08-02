@@ -34,6 +34,7 @@ A modern, AI-powered email response generator built with React and Material-UI. 
 - **Node.js** (version 16 or higher)
 - **npm** or **yarn** package manager
 - **Backend API** running on `http://localhost:8080`
+- **Gemini API Key** from [Google AI Studio](https://makersuite.google.com/app/apikey)
 
 ## 🚀 Quick Start
 
@@ -44,7 +45,16 @@ A modern, AI-powered email response generator built with React and Material-UI. 
    npm install
    ```
 
-2. **Start Development**
+2. **Setup Environment**
+   ```bash
+   # Frontend
+   echo "VITE_API_URL=http://localhost:8080" > .env
+   
+   # Backend (in backend directory)
+   echo "GEMINI_API_KEY=your_api_key_here" > .env
+   ```
+
+3. **Start Development**
    ```bash
    npm run dev
    ```
@@ -80,6 +90,21 @@ email-assistant/
 ```
 
 
+## 🔑 Gemini API Setup
+
+This project uses Google's Gemini AI for generating email responses. You'll need to set up your Gemini API key:
+
+### 1. Get Gemini API Key
+1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Sign in with your Google account
+3. Click "Create API Key"
+4. Copy your API key
+
+### 2. Configure Environment Variables
+Create a `.env` file in your backend directory:
+```env
+GEMINI_API_KEY=your_gemini_api_key_here
+```
 
 ### 💼 Home Page UI  
 A clean and intuitive interface for generating AI-powered email responses.  
